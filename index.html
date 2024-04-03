@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <title>Список фильмов</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header__menu">
+          <h1>Список фильмов</h1>
+          <p class="numberYear">2023</p>
+        </div>
+        <h2>Посмотреть</h2>
+      </div>
+      <div class="listMovies__wrapper">
+        <div class="listMovies__input-nameMovie">
+          <input
+            type="text"
+            class="js-inputMovie inputMovie"
+            placeholder="Добавить фильм"
+          />
+
+          <div class="input_btn">
+            <button class="js-btn-new-movie btn-new-movie" disabled = false>
+              <img src="./resurses/Ellipse 1.png" alt="" />
+              <img class="vector" src="./resurses/Vector.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="js-output"></div>
+      
+
+        <!-- <ul class="js-movies-list movie-list"></ul> -->
+        <!-- <li id="${movie.id}" class="${movie.completed ? "movieItem movieItem-selected" : 'movieItem'}" >
+            <div class="${movie.completed ? "btn-selected btn-selected-close" : 'btn-selected'}" data-action="done"></div>
+           <div class="movieName" >${movie.movie}</div>
+             <button class="btn-delete" data-action="delete" ></button>
+         </li> -->
+        
+        <!-- <input type="checkbox"> -->
+        
+      </div>
+    </div> 
+   
+
+    <!-- <script src="model.js"></script>
+    <script src="view.js"></script>
+    <script src="api.js"></script>
+    <script src="controller.js"></script> -->
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
